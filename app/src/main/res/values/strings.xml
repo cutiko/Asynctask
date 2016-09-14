@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Asynctask</string>
+    <string name="action_settings">Settings</string>
+    <string name="explanation">When the FAB is pressed two thread will execute code asynchronously.
+        The main thread will update the progressbar at the top each second during 10 seconds.
+        The background thread will update the progressbar in the bottom each second during 10 seconds.
+        You can see how this is done simultaneously but in different threads. If this was not done at the same time,
+        then what would happen is that the main thread would end first and then the background thread will start.
+        If you are looking a for a quick AsyncTask exercise this is the right place. Maybe you notice a small delay in the
+        background thread, that it is cause sleeping and waking up a thread is not instantaneous</string>
+</resources>
